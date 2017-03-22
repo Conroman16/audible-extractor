@@ -1,7 +1,10 @@
 # audible-extractor
 A collection of scripts to de-DRM audible files so that you can listen to them on any device
 
-## Installation
+### Get the code
+* `git clone https://github.com/Conroman16/audible-extractor.git --recursive`
+
+### Installation
 1. Make sure you have the necessary dependencies installed
     * Python 2.7
     * Google Chrome
