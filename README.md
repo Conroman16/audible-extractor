@@ -1,4 +1,4 @@
-# audible-converter
+# audible-extractor
 A collection of scripts to de-DRM audible files so that you can listen to them on any device.
 
 ## Installation
@@ -11,9 +11,9 @@ A collection of scripts to de-DRM audible files so that you can listen to them o
 3. Install necessary Python dependencies
   - `pip install requests selenium`
 4. Run audible-activator
-  - `python ./audible-converter/audible-activator/audible-activator.py`
+  - `python ./audible-extractor/audible-activator/audible-activator.py`
   - It will ask for the credentials to your Audible account and then will use ChromeDriver to log in and obtain the activation token
 5. Copy the 8-character alphanumeric activation code
 6. Run AAXtoMP3 (or FLAC) on the `.aax` file you want to extract
-  - `bash ./audible-converter/AAXtoMP3/AAXtoMP3.sh`
-  - Usage: `bash ./audible-converter/AAXtoMP3/AAXtoMP3.sh [--flac] [--single] AUTHCODE {FILES}`
+  - `bash ./audible-extractor/AAXtoMP3/AAXtoMP3.sh`
+  - Usage: `bash ./audible-extractor/AAXtoMP3/AAXtoMP3.sh [--flac] [--single] AUTHCODE {FILES}`
