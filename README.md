@@ -10,7 +10,7 @@ A collection of scripts to de-DRM audible files so that you can listen to them o
     * Google Chrome
     * FFmpeg
     * libmp3lame (should be part of the `lame` package)
-2. Download ChromeDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and place the extracted binary in the `./audible-activator` directory
+2. Download ChromeDriver from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and extract the binary into this directory
 3. Install necessary Python dependencies
     * `pip install requests selenium`
 4. Run audible-activator
